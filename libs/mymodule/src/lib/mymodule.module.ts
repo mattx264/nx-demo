@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
+  declarations: [Headers],
+  exports: [Headers],
   imports: [
     CommonModule,
     RouterModule.forChild([
