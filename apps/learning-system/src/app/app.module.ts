@@ -4,9 +4,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { MymoduleModule } from '@lms/mymodule';
-
+import { SharedModule } from '@lms/shared';
 @NgModule({
-  declarations: [AppComponent, ],
+  declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, MymoduleModule],
   providers: [],
   bootstrap: [AppComponent],

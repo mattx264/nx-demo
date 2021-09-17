@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@lms/class": ["libs/class/src/index.ts"],
-      "@lms/mymodule": ["libs/mymodule/src/index.ts"]
+      "@lms/mymodule": ["libs/mymodule/src/index.ts"],
+      "@lms/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

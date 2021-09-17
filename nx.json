@@ -39,6 +39,9 @@
     },
     "mymodule": {
       "tags": []
+    },
+    "shared": {
+      "tags": []
     }
   }
 }
